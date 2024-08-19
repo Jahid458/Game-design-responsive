@@ -142,7 +142,7 @@
 }
 
 .card-4{
-  grid-area: d;
+   grid-area: d;
   
 }
 
@@ -152,6 +152,9 @@
   left: 38%;
   text-align: center;
   display: none;
+}
+.watch-now p{
+  color: red;
 }
 
 .watch-now span{
@@ -163,6 +166,43 @@
  display: block;
 
 }
+
+.online-card img:hover{
+  filter: brightness(50%);
+}
+
+/* Play instant */
+
+.play-main{
+   display: flex;
+   max-width: 1000px;
+   margin: 0 auto 100px;
+   justify-content: space-between;
+   align-items: center;
+}
+
+
+.play-left{
+    width: 40%;
+}
+
+.play-right{
+  width: 40%;
+  position: relative;
+}
+
+.play-right img{
+  width: 100%;
+}
+
+.play-right .beral{
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  bottom: -60px;
+  left: -60px;
+}
+
 
 
 

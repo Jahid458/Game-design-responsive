@@ -32,4 +32,22 @@
        width: 80%;
        margin: 50px  auto 0px;
   }
+
+  .play-main{
+    flex-direction: column;
+    width: 70%;
+ }
+
+  .play-left{
+    width: 100%;
+}
+
+.play-right{
+  width: 100%;
+  
+}
+.play-right .beral{
+    width: 100px;
+    height: 120px;
+}
 }
