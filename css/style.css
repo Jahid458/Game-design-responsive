@@ -110,3 +110,41 @@
   background-color:#4EC5F7 ;
 }
 
+/* online sections list */
+.online-main{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas:
+     "a b c d " ;
+     gap: 10px;
+}
+
+.online-card{
+
+}
+
+.online-card img{
+  width: 100%;
+}
+.card-1{
+    grid-area: a;
+}
+
+.card-2{
+  grid-area: b;
+  
+}
+
+.card-3{
+  grid-area: c;
+  
+}
+
+.card-4{
+  grid-area: d;
+  
+}
+
+
+
