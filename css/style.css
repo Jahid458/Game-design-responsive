@@ -121,7 +121,7 @@
 }
 
 .online-card{
-
+  position: relative;
 }
 
 .online-card img{
@@ -144,6 +144,24 @@
 .card-4{
   grid-area: d;
   
+}
+
+.watch-now{
+  position: absolute;
+  top: 38%;
+  left: 38%;
+  text-align: center;
+  display: none;
+}
+
+.watch-now span{
+  font-size: 30px;
+  color: white;
+}
+
+.online-card img:hover+.watch-now{
+ display: block;
+
 }
 
 
